@@ -14,7 +14,7 @@
     color: #dcdcdc;
     min-height: 500px;
     flex: 1;
-    max-width: 45%;
+    max-width: 60%;
 }
 
 .intro h2 {
@@ -38,9 +38,6 @@
 
 /* ========== Sección Hero ========== */
 .hero {
-    background-image: url('banner-gotico.jpg');
-    background-size: cover;
-    background-position: center;
     padding: 100px 20px;
     color: #f5f5f5;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
