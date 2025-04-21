@@ -1,0 +1,153 @@
+/* ========== Sección Nosotros ========== */
+#nosotros {
+    background-color: #1a1a1a;
+    color: #dcdcdc;
+    padding: 60px 30px;
+    
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+/* ========== Animaciones ========== */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.columna-izquierda {
+    flex: 1;
+    max-width: 60%;
+    padding: 20px;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0.3s;
+}
+
+
+#nosotros h2 {
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #8B0000;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0.3s;
+    font-family: 'Cinzel', serif;
+}
+
+.introduccion {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0.6s;
+}
+
+.mision, .vision, .equipo {
+    margin-bottom: 40px;
+}
+
+.mision h3, .vision h3, .equipo h3 {
+    font-size: 28px;
+    color: #8B0000;
+    text-align: left;
+    margin-bottom: 15px;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0.9s;
+    font-family: 'Cinzel', serif;
+}
+
+.mision p, .vision p, .equipo p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 1.2s;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ========== Columna Derecha ========== */
+.columna-derecha {
+    flex: 1;
+    max-width: 35%;
+    padding: 20px;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 1.5s;
+}
+
+.columna-derecha h3 {
+    font-size: 28px;
+    color: #8B0000;
+    text-align: left;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 1.8s;
+    font-family: 'Cinzel', serif;
+}
+
+.integrante {
+    margin-bottom: 30px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 2.1s;
+}
+
+.integrante img {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 3px solid #8B0000;
+    margin-bottom: 10px;
+}
+
+.integrante h4 {
+    font-size: 22px;
+    color: #dcdcdc;
+    margin-bottom: 10px;
+    font-family: 'Cinzel', serif;
+    
+}
+
+.integrante p {
+    font-size: 16px;
+    color: #dcdcdc;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@media (max-width: 768px) {
+    .contenedor {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .columna-izquierda, .columna-derecha {
+        max-width: 100%;
+    }
+}

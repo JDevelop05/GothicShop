@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "nombre": "Guantes de cadena de metal",
+    "imagen": "/assets/img/1.jpg",
+    "precio": "$50.000",
+    "descripcion": "Guantes de cadena de metal con calavera negra para hombre con anillas extraíbles.",
+    "material": "Cuero sintetico Y Metal"
+  },
+  {
+    "id": "2",
+    "nombre": "Muñequera gótica con hebillas",
+    "imagen": "/assets/img/2.jpg",
+    "precio": "$35.000",
+    "descripcion": "Muñequera gótica negra con múltiples hebillas metálicas, ideal para complementar atuendos alternativos o rockeros.",
+    "material": "Cuero sintético y Metal"
+  },
+  {
+    "id": "3",
+    "nombre": "Collar de esqueleto colgante",
+    "imagen": "/assets/img/3.jpg",
+    "precio": "$40.000",
+    "descripcion": "Collar de acero inoxidable con dije de esqueleto articulado que cuelga de sus brazos. Un accesorio único con estilo oscuro y llamativo.",
+    "material": "Acero inoxidable"
+  },
+  {
+    "id": "4",
+    "nombre": "Collar de clavos con alambre",
+    "imagen": "/assets/img/4.jpg",
+    "precio": "$38.000",
+    "descripcion": "Collar de acero inoxidable con un dije de tres clavos entrelazados con alambre. Un diseño crudo y simbólico que resalta en cualquier outfit gótico o alternativo.",
+    "material": "Acero inoxidable"
+  },
+  {
+    "id": "5",
+    "nombre": "Collar garra con perla negra",
+    "imagen": "/assets/img/5.jpg",
+    "precio": "$42.000",
+    "descripcion": "Collar de acero inoxidable con dije en forma de garra de cuatro dedos que sostiene una perla negra. Un accesorio elegante y oscuro que evoca fuerza y misterio.",
+    "material": "Acero inoxidable"
+  },
+  {
+    "id": "6",
+    "nombre": "Botines negros altos de dama",
+    "imagen": "/assets/img/6.jpg",
+    "precio": "$85.000",
+    "descripcion": "Botines negros de dama con diseño alto hasta la mitad de la pantorrilla. Estilo elegante con un toque oscuro, ideales para outfits góticos o alternativos.",
+    "material": "Material sintético"
+  },
+  {
+    "id": "7",
+    "nombre": "Botines negros con cadenas y hebillas",
+    "imagen": "/assets/img/7.jpg",
+    "precio": "$95.000",
+    "descripcion": "Botines negros de dama altos hasta debajo de la rodilla, adornados con múltiples cadenas y hebillas metálicas. Un diseño imponente para un estilo gótico o punk.",
+    "material": "Material sintético y Metal"
+  },
+  {
+    "id": "8",
+    "nombre": "Vestido asimétrico negro strapless",
+    "imagen": "/assets/img/8.jpg",
+    "precio": "$110.000",
+    "descripcion": "Vestido negro de corte asimétrico, más corto al frente y largo por detrás. Diseño strapless sin mangas ni tirantes, con delicados encajes en la parte inferior. Ideal para un look gótico elegante y sofisticado.",
+    "material": "Poliéster y encaje"
+  },
+  {
+    "id": "9",
+    "nombre": "Vestido negro con encaje y cordones laterales",
+    "imagen": "/assets/img/9.jpg",
+    "precio": "$105.000",
+    "descripcion": "Vestido negro de dama con tiras delgadas y encaje en la zona del pecho. Largo hasta la rodilla, con aberturas laterales ajustadas con cordones cruzados que aportan un toque sensual y alternativo.",
+    "material": "Tela sintética y encaje"
+  },
+  {
+    "id": "10",
+    "nombre": "Pendientes cruz negros con dije púrpura",
+    "imagen": "/assets/img/10.jpg",
+    "precio": "$28.000",
+    "descripcion": "Pendientes en forma de cruz de color negro con un llamativo dije púrpura en el centro. Un accesorio único que combina elegancia y un estilo oscuro distintivo.",
+    "material": "Aleación metálica y resina"
+  },
+  {
+    "id": "11",
+    "nombre": "Pendientes cruz dorados con dije ruby",
+    "imagen": "/assets/img/11.jpg",
+    "precio": "$30.000",
+    "descripcion": "Pendientes en forma de cruz dorada con un elegante dije de color ruby en el centro. Un accesorio sofisticado con un toque clásico y distintivo.",
+    "material": "Aleación metálica y resina"
+  },
+  {
+    "id": "12",
+    "nombre": "Pendientes cruz plateados con dije negro",
+    "imagen": "/assets/img/12.jpg",
+    "precio": "$27.000",
+    "descripcion": "Pendientes en forma de cruz plateada con un elegante dije negro en el centro. Un accesorio ideal para un estilo gótico o alternativo, con un toque sutil y moderno.",
+    "material": "Aleación metálica y resina"
+  }  
+]

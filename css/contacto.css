@@ -1,0 +1,185 @@
+/* ========== Sección de Contacto con Animación de Entrada ========== */
+#contacto {
+    background-color: #1c1c1c;
+    color: #dcdcdc;
+    padding: 60px 30px;
+    text-align: center;
+    min-height: 600px;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+}
+
+/* Animación de entrada: Fade-in + desplazamiento hacia arriba */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#contacto h2 {
+    font-size: 36px;
+    color: #8B0000;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0.3s;
+}
+
+#contacto p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.8;
+    color: #dcdcdc;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0.6s;
+}
+
+.contacto-contenedor {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0.9s;
+}
+
+/* ========== Formulario de contacto con animación ========== */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 1.2s;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 1.5s;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #8B0000;
+}
+
+form .btn-enviar {
+    padding: 12px 20px;
+    background-color: #8B0000;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 1.8s;
+}
+
+form .btn-enviar:hover {
+    background-color: #a11b0d;
+}
+
+/* ========== Información de contacto con animación ========== */
+.contacto-info {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 2s;
+}
+
+.contacto-info h3 {
+    font-size: 28px;
+    color: #8B0000;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 20px;
+}
+
+.contacto-info ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.contacto-info li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dcdcdc;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 2.3s;
+}
+
+.contacto-info li i {
+    margin-right: 10px;
+    color: #8B0000;
+}
+
+/* ========== Redes sociales con animación ========== */
+.social-media {
+    margin-top: 40px;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 2.6s;
+}
+
+.social-media h3 {
+    font-size: 28px;
+    color: #8B0000;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 20px;
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-media li {
+    font-size: 18px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #dcdcdc;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #8B0000;
+}

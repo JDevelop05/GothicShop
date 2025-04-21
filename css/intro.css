@@ -1,0 +1,71 @@
+/* ========== Sección de Introducción y Héroe (lado a lado) ========== */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+/* ========== Sección de Introducción ========== */
+.intro {
+    padding: 60px 30px;
+    color: #dcdcdc;
+    min-height: 500px;
+    flex: 1;
+    max-width: 45%;
+}
+
+.intro h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #8B0000;
+    font-family: 'Cinzel', serif;
+}
+
+.intro p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.intro img {
+    max-width: 200px;
+    margin: 20px 0;
+}
+
+/* ========== Sección Hero ========== */
+.hero {
+    background-image: url('banner-gotico.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: #f5f5f5;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    flex: 1;
+    max-width: 45%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: 'Cinzel', serif;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.hero img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}

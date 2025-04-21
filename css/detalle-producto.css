@@ -1,0 +1,180 @@
+/* ========== Detalles Producto ========== */
+.detalle-producto {
+    position: relative;
+    background-color: #2e2e2e;
+    border: 2px solid #6A0DAD;
+    border-radius: 16px;
+    padding: 60px 40px 40px;
+    max-width: 1000px;
+    margin: 60px auto;
+    color: #f5f5f5;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Contenedor interno del grid */
+.detalle-producto .grid-contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out 0.4s forwards;
+}
+
+/* Imagen del producto */
+.detalle-producto .imagen img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    animation: fadeInLeft 0.8s ease-out forwards;
+}
+/* Contenido textual */
+.detalle-producto .contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    opacity: 0;
+    animation: fadeInUp 0.5s ease-out 0.5s forwards;
+}
+
+/* Título */
+.detalle-producto h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 36px;
+    color: #8B0000;
+    margin: 0;
+    opacity: 0;
+    animation: fadeInLeft 0.5s ease-out 1s forwards;
+}
+
+/* Precio */
+.detalle-producto .precio {
+    font-size: 28px;
+    font-weight: bold;
+    color: #B22222;
+    margin-top: 10px;
+    opacity: 0;
+    animation: fadeInLeft 0.5s ease-out 1.2s forwards;
+}
+
+/* Descripción y material */
+.detalle-producto p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0;
+    opacity: 0;
+    animation: fadeInLeft 0.5s ease-out 1.4s forwards;
+}
+
+/* Botón de compra */
+.detalle-producto button {
+    align-self: flex-start;
+    background: #8B0000;
+    color: #f5f5f5;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(139, 0, 0, 0.5);
+    opacity: 0;
+    animation: fadeInUp 0.5s ease-out 1.6s forwards;
+}
+
+.detalle-producto button:hover {
+    background: #6A0DAD;
+    transform: scale(1.05);
+}
+
+/* Botón Volver */
+.detalle-producto .btn-volver {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #444;
+    color: #f5f5f5;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    opacity: 0;
+    animation: fadeInUp 0.5s ease-out 1.8s forwards;
+}
+
+.detalle-producto .btn-volver:hover {
+    background: #6A0DAD;
+    transform: scale(1.05);
+}
+
+.detalle-producto .btn-volver i {
+    margin-right: 6px;
+}
+
+/* ========== Animaciones ========== */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 768px) {
+    .detalle-producto {
+        padding: 60px 20px 30px;
+    }
+
+    .detalle-producto .grid-contenido {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .detalle-producto .contenido {
+        align-items: center;
+        text-align: center;
+    }
+
+    .detalle-producto .contenido button {
+        align-self: center;
+    }
+
+    .detalle-producto .imagen img {
+        max-height: 300px;
+    }
+
+    .detalle-producto .btn-volver {
+        top: 15px;
+        right: 15px;
+        font-size: 13px;
+        padding: 8px 14px;
+    }
+}

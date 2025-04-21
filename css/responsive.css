@@ -1,0 +1,50 @@
+/* ========== Responsive ========== */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .seccion-lado-a-lado,
+    .hero,
+    .intro,
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    /* Especificaciones para .hero y .intro */
+    .hero,
+    .intro {
+        padding: 20px 15px;
+    }
+
+    .product-grid {
+        padding: 0 15px 30px;
+        gap: 20px;
+    }
+
+    .product-card {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
